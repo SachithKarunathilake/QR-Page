@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+
+.QR-box{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 100%) ;
+    width:320px;
+    height:488px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);  
+    padding:18px;
+    border-radius:30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.QR-img{
+    width:100%;
+    display: flex;
+    justify-content: center;  
+}
+
+.QR-img img{
+    width: 100%; 
+    border-radius: 20px;
+}
+
+.description{
+    font-family:'outfit';
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.description h1{
+    color:hsl(218, 44%, 22%);
+    padding: 20px 0 0 0;
+    font-weight: 700;
+    font-size:20px;
+}
+
+.description p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding:20px 0 0 0;
+    font-weight: 400;
+}
+
+@media(max-width:450px){
+    .QR-box{
+        max-width:90%;    
+        margin:0 auto;
+    }
+}
+
+
+
